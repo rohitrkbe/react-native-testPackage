@@ -1,0 +1,22 @@
+{
+  "name": "react-native-testpackage",
+  "version": "1.0.1",
+  "description": "testPackage for creating cross platform reusable components that can be used along wide variety of projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitrkbe/react-native-testPackage.git"
+  },
+  "keywords": [
+    "testPackage"
+  ],
+  "author": "Rohit Kumar Singh (rohitrkbe@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitrkbe/react-native-testPackage/issues"
+  },
+  "homepage": "https://github.com/rohitrkbe/react-native-testPackage#readme"
+}
