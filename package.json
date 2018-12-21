@@ -1,6 +1,6 @@
 {
   "name": "react-native-testpackage",
-  "version": "1.0.1",
+  "version": "1.0.12",
   "description": "testPackage for creating cross platform reusable components that can be used along wide variety of projects.",
   "main": "index.js",
   "scripts": {

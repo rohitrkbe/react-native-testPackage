@@ -1,13 +1,13 @@
 import React from 'react';
-import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
+import {StyleSheet, Text, View, TouchableOpacity,Alert} from 'react-native';
 const styles = StyleSheet.create({
-  primaryTextStyle: {color: 'white',fontWeight: '500',fontSize:20,textAlign: 'center',fontFamily: Fonts.Roboto_Regular,},
-  secondaryTextStyle: {color: 'white',fontWeight: '500',fontSize:20,textAlign: 'center',fontFamily: Fonts.Roboto_Regular,}
+  primaryTextStyle: {color: 'white',fontWeight: '500',fontSize:20,textAlign: 'center'},
+  secondaryTextStyle: {color: 'white',fontWeight: '500',fontSize:20,textAlign: 'center'}
 });
 
 export const PrimaryText = ({text='NoPrimaryTextPassed',textStyle = {}}) => (
     <View>
-        <TouchableOpacity onPress={alert.alert('primaryTextPressed')}>
+        <TouchableOpacity onPress={Alert.alert('primaryTextPressed')}>
             <Text pointerEvents="none" style={[styles.primaryTextStyle, textStyle]}> {text} </Text>
         </TouchableOpacity>
     </View>
@@ -15,7 +15,7 @@ export const PrimaryText = ({text='NoPrimaryTextPassed',textStyle = {}}) => (
 
 export const SecondaryText = ({text='NoSecondaryTextPassed',textStyle = {}}) => (
     <View>
-        <TouchableOpacity onPress={alert.alert('secondaryTextPressed')}>
+        <TouchableOpacity onPress={Alert.alert('secondaryTextPressed')}>
             <Text pointerEvents="none" style={[styles.secondaryTextStyle, textStyle]}> {text} </Text>
         </TouchableOpacity>
     </View>
